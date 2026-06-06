@@ -1,4 +1,4 @@
-const reviewsData = [
+window.reviewsData = [
     {
         "id": 0,
         "author": "Léa Fillon",
@@ -11,9 +11,9 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1RWa1wjTXyyaQPLuKH5LntSLNtg79GZwf9tQ_J-UcwwGPBfLvif9Ns0B1ogdEHvtbgLMiGKJKwgm1ufrzdjpb7E1CTvER_kgi-mUrst0skMU0cI-mz4HBOPLbvxp-89nZgL8BQwlTnuWTf=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Léa_Fillon_0_0.jpg",
-            "downloaded_photos\\Léa_Fillon_0_1.jpg",
-            "downloaded_photos\\Léa_Fillon_0_2.jpg"
+            "downloaded_photos/Léa_Fillon_0_0.jpg",
+            "downloaded_photos/Léa_Fillon_0_1.jpg",
+            "downloaded_photos/Léa_Fillon_0_2.jpg"
         ]
     },
     {
@@ -38,10 +38,10 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3hQuc2BpZZVXeqA0M2eNvsfpS8RR-xLw5psK-ROMyvv56n6eW9hqCQ7Or3PIsd2LCdyxVv8ulyMbbK3YV6sC-jHKMx0iYep7qLXdl7UesWY86Bo0M_0K-s498juGKY9zgQ308=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\KUNDALINI_KEY_2_0.jpg",
-            "downloaded_photos\\KUNDALINI_KEY_2_1.jpg",
-            "downloaded_photos\\KUNDALINI_KEY_2_2.jpg",
-            "downloaded_photos\\KUNDALINI_KEY_2_3.jpg"
+            "downloaded_photos/KUNDALINI_KEY_2_0.jpg",
+            "downloaded_photos/KUNDALINI_KEY_2_1.jpg",
+            "downloaded_photos/KUNDALINI_KEY_2_2.jpg",
+            "downloaded_photos/KUNDALINI_KEY_2_3.jpg"
         ]
     },
     {
@@ -54,7 +54,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0eV5xlI0lla2ItGQmQgI5wcLsyZaS2Hdd5bguNBFtbpLHrNihJ0kjqmZAwb6mvCV2XSq11Z5BrtEmvnLYUsgZXNMyU-B_7yZkf304pT6gGMfLffK4NLFcyePWfyWrlZkqGfo0v039s4tI9=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Ravizgraphy_3_0.jpg"
+            "downloaded_photos/Ravizgraphy_3_0.jpg"
         ]
     },
     {
@@ -88,10 +88,10 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2wWwWmgH3VcJt7sEWNMl8DfLRHiSgP25kFlF9XZWlin68TCt1n3g3g8rMdV0ARU0_EU-S8K5gRsWkbzt_-qlGj1MPnLZuInKt1BepP8rx_wQMSiqewp8TivrquozZ1_MC1eGGm6g=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Britt_6_0.jpg",
-            "downloaded_photos\\Britt_6_1.jpg",
-            "downloaded_photos\\Britt_6_2.jpg",
-            "downloaded_photos\\Britt_6_3.jpg"
+            "downloaded_photos/Britt_6_0.jpg",
+            "downloaded_photos/Britt_6_1.jpg",
+            "downloaded_photos/Britt_6_2.jpg",
+            "downloaded_photos/Britt_6_3.jpg"
         ]
     },
     {
@@ -140,7 +140,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0a3g0YO6wRmsrCZDhzfYzxL3VyQ9ABGhyie6fGpJntHJsQcKP5itReVvkJulth90cnbVUCmrn53bNex3sQgIkJbk2xw8a1WXvUJQL4bMGADlf4RfokqGe3QKeQg-eqHq5Y48KP5A=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\B_E_11_0.jpg"
+            "downloaded_photos/B_E_11_0.jpg"
         ]
     },
     {
@@ -153,7 +153,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2MpfZqDuzCiMzvUqbDz9O5J27-s6hQQaaqTXl0WLnyFbID1lXbSpP2_r7xWXMnAk5A0Je9M_AKkSVZN64vtYwK2bp2AciWqBUPtrY3fZZIECn_J5WR5wfqR_YANPrncMiGDhIyQqo8tR-i=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Valentina_Pedross_12_0.jpg"
+            "downloaded_photos/Valentina_Pedross_12_0.jpg"
         ]
     },
     {
@@ -166,7 +166,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1W8ljFZ1-rgQsUD0Ht_AXUn2H9rpibbtbNI0pVAhlqH1gBx4nxuZSma2fmDPqKeDazl8cxHp6eYDw5nbAmF8aiil1NNlhIFUj9JXwljXjWh8d90vF8HrVoHiF_sXPByqHczEJdYg=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Elise_DEWISME_13_0.jpg"
+            "downloaded_photos/Elise_DEWISME_13_0.jpg"
         ]
     },
     {
@@ -180,8 +180,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Y34TsW3oKo2IlHUbGcqebqXm0t_lMhmPh0zqfJC9SpEvHYVkaZpHcsEzwYXifLKdFHXB3BsNmVnxmuxiOyw_E7gZs4qLB1D75RTJdWyd5Kk8KpuFeQyJyGHOar3HXoGUiuzkQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Alanna_D_14_0.jpg",
-            "downloaded_photos\\Alanna_D_14_1.jpg"
+            "downloaded_photos/Alanna_D_14_0.jpg",
+            "downloaded_photos/Alanna_D_14_1.jpg"
         ]
     },
     {
@@ -215,10 +215,10 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1KZiLCNPQJ0m9R1sESALJ5-8j6lGE_9qdfAHL9QdKU2gdvLCyOCsZ1S07JqZxWN6JMA1kdfAoWRPtALmR4KZhu9IMVbWX4Qt2t9MW2YUkmn89p99YAj5J1yJXZ1T4dvccGuGKni8YpTeG3=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Carmen_Jerez_alcazar_17_0.jpg",
-            "downloaded_photos\\Carmen_Jerez_alcazar_17_1.jpg",
-            "downloaded_photos\\Carmen_Jerez_alcazar_17_2.jpg",
-            "downloaded_photos\\Carmen_Jerez_alcazar_17_3.jpg"
+            "downloaded_photos/Carmen_Jerez_alcazar_17_0.jpg",
+            "downloaded_photos/Carmen_Jerez_alcazar_17_1.jpg",
+            "downloaded_photos/Carmen_Jerez_alcazar_17_2.jpg",
+            "downloaded_photos/Carmen_Jerez_alcazar_17_3.jpg"
         ]
     },
     {
@@ -232,8 +232,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1syvGs5CdF_dWjrDsfjQNG86ja0X7jcELwVfz69AovuyXNiGNKeG1G79P6FZItx1gv2KrK0NCrdvikupjnfCkBBpFXIIJwZaZV2x2jm7NAJb0WqLOOeDZRpGhfikhegzZAeB3b=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Mihaela_Nedeva_18_0.jpg",
-            "downloaded_photos\\Mihaela_Nedeva_18_1.jpg"
+            "downloaded_photos/Mihaela_Nedeva_18_0.jpg",
+            "downloaded_photos/Mihaela_Nedeva_18_1.jpg"
         ]
     },
     {
@@ -248,9 +248,9 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3r7rnIUrnjSFZ5VtYNDFEsMj2rTB8xBqVLzpA3DRxA2_TrWmXMRHCaHSqRXbCjoFi0ksibupiSLOUFanbUTZOdSfVKiz8HsKQPDi5N8Mcc9ja9Wb0CI-G247-2xaqtZkX437jryw=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Aroundtheworldwiththedestecroixs_19_0.jpg",
-            "downloaded_photos\\Aroundtheworldwiththedestecroixs_19_1.jpg",
-            "downloaded_photos\\Aroundtheworldwiththedestecroixs_19_2.jpg"
+            "downloaded_photos/Aroundtheworldwiththedestecroixs_19_0.jpg",
+            "downloaded_photos/Aroundtheworldwiththedestecroixs_19_1.jpg",
+            "downloaded_photos/Aroundtheworldwiththedestecroixs_19_2.jpg"
         ]
     },
     {
@@ -274,9 +274,9 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0APO0g9MZGU8-hIc6CM7XPfOogjYljmlN8V6Hj3heJR14r63efMMVAoK_NwKzr7DzAJ_cQLlOUkU_u5jmRA0gbrLruQufQSYKFj-9ydW4lrOz4LukVC6YH8WZIhfC__8PdGiehTg=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Emma_Winters_21_0.jpg",
-            "downloaded_photos\\Emma_Winters_21_1.jpg",
-            "downloaded_photos\\Emma_Winters_21_2.jpg"
+            "downloaded_photos/Emma_Winters_21_0.jpg",
+            "downloaded_photos/Emma_Winters_21_1.jpg",
+            "downloaded_photos/Emma_Winters_21_2.jpg"
         ]
     },
     {
@@ -289,7 +289,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0GsHZBAJfR8xlEzBvMadWnYFCGqCfzPuRORlBa1XzPhoMWv0MvtpC9UU5ZWOg5_VOVsRUh_e7zE1iow-OfWUPsQb_fkaWzdYy66bpOR1zTguZapRZlNq6AnEZo0j9HKYmlbyh9=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\lunia_piller_22_0.jpg"
+            "downloaded_photos/lunia_piller_22_0.jpg"
         ]
     },
     {
@@ -320,7 +320,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3oJI_ThRYR0dsBpBMaFnaIVXX1svQ3Lh26T-D585C_2QaZ7bH_0FdKNjc-Zbn_oQMR9Ej-Mg8BAK6K9Iu0jK77rLccEmRzjoRDVQABET244iUchPnokrBP9zPS6J5sxK57GjG8JxU2b-A=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Dave_25_0.jpg"
+            "downloaded_photos/Dave_25_0.jpg"
         ]
     },
     {
@@ -351,7 +351,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1g3y_LTQ16msJSx3cFzgFaV69Z1GuNdZtpeKmnQB2lGK0g6KXRsXx5L0yRnIdz2m3ooOpeo6sh38X3NWtEUMr3mx8LKUAkTk1Ru_yseuC0kjBR7euPKB-L5YsOtI9-EbW49B83fw=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Kade_Mindry_28_0.jpg"
+            "downloaded_photos/Kade_Mindry_28_0.jpg"
         ]
     },
     {
@@ -382,7 +382,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Xv-tZiPovYg3jqXGxiNTLbYKSiPN_h46CbH6oSifjw34TbNBauS2-XPdlL9AI7TEzG8G-WjJyDr3fJ6qWYq__pJtX7fwqBtaSJAVX4fNdMkmzksbZLQKTJFGl_TlgSxNQWLIj=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Alejandro_Ferigle_31_0.jpg"
+            "downloaded_photos/Alejandro_Ferigle_31_0.jpg"
         ]
     },
     {
@@ -404,7 +404,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0eZcIHxoBWhccQRJOYq5VVHbQocfJ5hyBDV1gJneksv4AyKmfkHY6qrqdtuk_Dgz9gC2Z0kySCIppqzcI38F7lpBAT2RSsFWLXwOmPTshDPiEmlSQsWn7xdAA2OK-XaAmYydLw6XVZtZpL=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\S._Coppens_33_0.jpg"
+            "downloaded_photos/S._Coppens_33_0.jpg"
         ]
     },
     {
@@ -427,8 +427,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0wN26G5g7j_UTeJClXcyZ3AEjfyn92UphmofVrUM64qM5jEpYVBK7mcT68lI2LFRt3IBze_Nz-_q0-2uXuX0r6nsd1IGdUHGtWSbWtYTwlsZnaC5-c4QN0OLEeIKk4thkCxZvS-Q=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Lucy_Tickell_35_0.jpg",
-            "downloaded_photos\\Lucy_Tickell_35_1.jpg"
+            "downloaded_photos/Lucy_Tickell_35_0.jpg",
+            "downloaded_photos/Lucy_Tickell_35_1.jpg"
         ]
     },
     {
@@ -450,7 +450,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0KirC6ViHmBnksh60HupYdG9jB49aP8RFoOZtbL2mwxhKBsvdQfHVyWjS_xFJJruWfNlX89-iAkg-7PcluHUUwZOgGjlUPP1925jc5L_xbj7S6tddWm8QtM3jsItXuVCA4Ah6jFQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Jiji_Hannah_37_0.jpg"
+            "downloaded_photos/Jiji_Hannah_37_0.jpg"
         ]
     },
     {
@@ -464,8 +464,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1OsCmZeTarQGgzBDzWGyi33yZHXx__LHwNTV-2laMAnGywUCCpQW6W-19Z-nqqFsFF_dy1TQku3P8lHLidV5GyaMhCO0U2uuSMM3huGfHdKV4hyzcj5OIiSCp9NElFwogFeZ-nOw=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Dominik_Prior_38_0.jpg",
-            "downloaded_photos\\Dominik_Prior_38_1.jpg"
+            "downloaded_photos/Dominik_Prior_38_0.jpg",
+            "downloaded_photos/Dominik_Prior_38_1.jpg"
         ]
     },
     {
@@ -478,7 +478,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0Zgbx5JJEsLHQDjkpAK3I6Ipl7lMCsF0GMg4qVkhqIxA8yD4oxAn0-5KuwIJzGS9-IgjbCinfuT2oCZOR0wqD3NpVe3Ou94gHpONcxf_NipQblNmFhCVP5SkDy5W9MrKjCD7On=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Kara_Duffy_39_0.jpg"
+            "downloaded_photos/Kara_Duffy_39_0.jpg"
         ]
     },
     {
@@ -519,8 +519,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2Q6VI0zHjX-CqhADzAPYNVt3ou471ZzGpxoAJFYe2DcCMPs6g3oxo4NKnsntLCZS405qfZmCtG0EjLlLc0pu8LrUnYm9EQaimXsucCnQk3fOVnY0UFWhOVWnHKnCP7zuwQBPU-zQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Roxane_Damseaux_43_0.jpg",
-            "downloaded_photos\\Roxane_Damseaux_43_1.jpg"
+            "downloaded_photos/Roxane_Damseaux_43_0.jpg",
+            "downloaded_photos/Roxane_Damseaux_43_1.jpg"
         ]
     },
     {
@@ -623,7 +623,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3ROTq670UbI4XX7NrvTWvsBgoHDdE1g981-CqRGlcSNGEx36s7lyqjm_FOraOqS4DymgYIOdC3zr5u58EoNxQVZzcEyvZRyg-f9paE2pjGvJ5TrfZwexJ0FJAIfa6r-pZbVXVW=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Jenny_La_54_0.jpg"
+            "downloaded_photos/Jenny_La_54_0.jpg"
         ]
     },
     {
@@ -636,7 +636,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1vGtYJUXoZrL6RK7316_NwZpURNf6LMNK1ajHJOs7XiRdAkUHdMX6ORZJd_AfNZ5sgUdQqopSxwXA8RnfvswPCti2isXgLrr-vA_CQIyFZWJUwXPioeeSJeWN64w2tiAGyWv4zuQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Tia_Scorgie_55_0.jpg"
+            "downloaded_photos/Tia_Scorgie_55_0.jpg"
         ]
     },
     {
@@ -650,8 +650,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1KCGGdtad8vVJt2IIo1_NnLrvAepNskhWtYoHHAYEfU9l-RXyhrRsV0J7uT0bm1c9qAUx8nQCbmwZiCg4EDgWDpqe5EKt1dRIpfFg7MyQCHtyC3ezBtXHmtB4spxxCBum6H662=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Natalia_d_56_0.jpg",
-            "downloaded_photos\\Natalia_d_56_1.jpg"
+            "downloaded_photos/Natalia_d_56_0.jpg",
+            "downloaded_photos/Natalia_d_56_1.jpg"
         ]
     },
     {
@@ -683,8 +683,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3lniAnI5hFLNCXoG9whfhecUBSCl2KIIju41K3qg7x4YFIPCcpe14cMYRCAQL0T93_7kN1qCkzHqOPkkyD_W0Hf5BH0hycmJLew_BUjtOMId7lDhp2DzDWuWEKJOfBIG8cAwlfJQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\feya_dougan_59_0.jpg",
-            "downloaded_photos\\feya_dougan_59_1.jpg"
+            "downloaded_photos/feya_dougan_59_0.jpg",
+            "downloaded_photos/feya_dougan_59_1.jpg"
         ]
     },
     {
@@ -796,7 +796,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3k7JiKQx2SjfcVaf4oHW6um6eQfbRIlI2KQfnne-wUnsk0sm18LOdaiZKmXbmbxE1PktZLfKfUzimRL_Pk6iNaGQygO6NYm1_XnAg7kJMlcmWxMfaeo33eDfXeFHrd8f8LgGU=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Preethi_Goutham_71_0.jpg"
+            "downloaded_photos/Preethi_Goutham_71_0.jpg"
         ]
     },
     {
@@ -873,8 +873,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn00mrZcryq44FzVR2EmRQohw-3B-_YiLM0qKnQvYspwVrcrVX7ec2l_2fiH6-0c1rvj-CeKSUY7tKx7NfKkj4HCWVy143vz23kDnAyER7VIV3SnhveG5ES1bJUV7Kluj-LE11lhLKh0WfQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Petra_Kiss-Grolmusz_79_0.jpg",
-            "downloaded_photos\\Petra_Kiss-Grolmusz_79_1.jpg"
+            "downloaded_photos/Petra_Kiss-Grolmusz_79_0.jpg",
+            "downloaded_photos/Petra_Kiss-Grolmusz_79_1.jpg"
         ]
     },
     {
@@ -896,7 +896,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Ds6u1CgPYthZ8CbyI--8_8lGnPYGqJwkckDn5K6w7qujg71AwbesOT33YNXFqiT8dr2LYR3DYJgLKGyWiVRyZ_cCk7jf9vkepccXziOqJRwar8o-HJk2VFpaauo0QtGmKrF2Dn0vSkjY=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Ben_Willetts_81_0.jpg"
+            "downloaded_photos/Ben_Willetts_81_0.jpg"
         ]
     },
     {
@@ -912,10 +912,10 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2hwIBTKg4AFzFygi_F4l138DMBG9ImoybKNuc4lNhS3pO_yFpMvY9Md1fDWOIiMOHqiYZcmIcdNK74Bk6kLBWXDnqeZ5p77rsmHKh9tEMFX8sYouV1wy67jHS-_Y8D1w1IJk2TQjPPCFX2=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Marilyn_Madelaine_82_0.jpg",
-            "downloaded_photos\\Marilyn_Madelaine_82_1.jpg",
-            "downloaded_photos\\Marilyn_Madelaine_82_2.jpg",
-            "downloaded_photos\\Marilyn_Madelaine_82_3.jpg"
+            "downloaded_photos/Marilyn_Madelaine_82_0.jpg",
+            "downloaded_photos/Marilyn_Madelaine_82_1.jpg",
+            "downloaded_photos/Marilyn_Madelaine_82_2.jpg",
+            "downloaded_photos/Marilyn_Madelaine_82_3.jpg"
         ]
     },
     {
@@ -928,7 +928,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1fpEpJ-zH-tJ2dwPgzpdu0mDr4IejPKq4OFHsCHgy4q8-yWhMGT8JILcnstUlNGpZvO35Rg0DOaiQ3quLt9B54OVz2rbaVE830KISjwoarY8WfJs_z4IwWJAqHEA0DzHyV2NGva9xbt8g4=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Ольга_Бражкина_83_0.jpg"
+            "downloaded_photos/Ольга_Бражкина_83_0.jpg"
         ]
     },
     {
@@ -950,7 +950,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2mA2SDOmZveI1ct2Up_5WrxEcxI_GA6uEsCs1dgN_pEv3JwgwaGtuBEquC9D3yfs-EXUFMQiZU8Ut8CFbsdkVIhl9CT06gxO923UXpAqX3C4eg_nfyW18bgyGgXhjVFxGpqCYlGyUZLVgY=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Denise_R._85_0.jpg"
+            "downloaded_photos/Denise_R._85_0.jpg"
         ]
     },
     {
@@ -983,9 +983,9 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2W-gNs1_KP2YTII3IsYig-bvhY-vuNGWerlPxwONa75eOVUcs4smgKg62OQsdISYTWmeyaEu7oXl6nlmP_CzZPYt8hT9Qb_gT1FD5OZD1q79iukIMlJwPoYJu-Vyo_JUEA7Xqf=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Patrick_Gödrich_88_0.jpg",
-            "downloaded_photos\\Patrick_Gödrich_88_1.jpg",
-            "downloaded_photos\\Patrick_Gödrich_88_2.jpg"
+            "downloaded_photos/Patrick_Gödrich_88_0.jpg",
+            "downloaded_photos/Patrick_Gödrich_88_1.jpg",
+            "downloaded_photos/Patrick_Gödrich_88_2.jpg"
         ]
     },
     {
@@ -1026,8 +1026,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn01JAWHKMJZ-EPOPICpQ69_9th0gvJN6IcneVgh2_fnlb_qGRiIDzxIT0y8xLvTTAb7DUg5YqJVbv9xH5nFjN7t6SEC1e6vmRq0-lPV0Ax7nhaBTNU61wQUeS4BHTla_UtCkIg=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Tobias_Schumacher_92_0.jpg",
-            "downloaded_photos\\Tobias_Schumacher_92_1.jpg"
+            "downloaded_photos/Tobias_Schumacher_92_0.jpg",
+            "downloaded_photos/Tobias_Schumacher_92_1.jpg"
         ]
     },
     {
@@ -1043,10 +1043,10 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn24e0rDGubVgaVRt5vNV6Y1-ULrl5RmQ6YLdGUVfYJPmxcEIdlhxpspOGHXPl8gNHANDJVKgXDoHz3GfiT8k6j5LQOjyls-l3JbndAnZ-F6ik4K9PcM93cCvGwA18AXLg--_1Al=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Christian_Dichtl_93_0.jpg",
-            "downloaded_photos\\Christian_Dichtl_93_1.jpg",
-            "downloaded_photos\\Christian_Dichtl_93_2.jpg",
-            "downloaded_photos\\Christian_Dichtl_93_3.jpg"
+            "downloaded_photos/Christian_Dichtl_93_0.jpg",
+            "downloaded_photos/Christian_Dichtl_93_1.jpg",
+            "downloaded_photos/Christian_Dichtl_93_2.jpg",
+            "downloaded_photos/Christian_Dichtl_93_3.jpg"
         ]
     },
     {
@@ -1060,8 +1060,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1D3UYCM033D_zgunjBBVKq_6scajNTWw-kxMuv7NpJ6ev4tnAKvWLTLD9EHPBfp97BzJ_qB8Mkd2nCTy5FAvKUanDlRTm6SJ-uZPVU0kTUCWq-d4no3H_fy5sKDesGoxaWyED6jMa5rq2d=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Sterre_Greeve_94_0.jpg",
-            "downloaded_photos\\Sterre_Greeve_94_1.jpg"
+            "downloaded_photos/Sterre_Greeve_94_0.jpg",
+            "downloaded_photos/Sterre_Greeve_94_1.jpg"
         ]
     },
     {
@@ -1084,8 +1084,8 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0sWuIeqQeBN6ueUC1urJw5k0zyBlWi0E47WY1BK2BaciDexBo2mjpDaS_OVA2XZGtHyKxlxK75RgiWBP76FXdm0AtrVq9LyasVvIYFSCciSiXksrDMoUV0Yr8fa-xUCzJ02ou_=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Madeline_Trick_96_0.jpg",
-            "downloaded_photos\\Madeline_Trick_96_1.jpg"
+            "downloaded_photos/Madeline_Trick_96_0.jpg",
+            "downloaded_photos/Madeline_Trick_96_1.jpg"
         ]
     },
     {
@@ -1116,7 +1116,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0t307UNpTtFMp8BBDYGV1J5i8ar_NiR95IWPwYksBOmo0YJV7XOFIlSavZZ9imQUCBCDIoexYj7jVbzJUDrlGuvkqPXF4u_H_KfQ_ppyGI_Q5KIcXllYqAIe2fnA0UzzaZ5oN1=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Jonasz_Kluza_99_0.jpg"
+            "downloaded_photos/Jonasz_Kluza_99_0.jpg"
         ]
     },
     {
@@ -1149,9 +1149,9 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn0COfV_x-fcZtPmtP22I-mtBY8yiGEnlzoo9zDNUIL_QCpguLildbs1P_ojGFdUO84HD3fyOv2Zw_oqQsoOdVORSHjVGaPyqlHMNyitrxjX5rH4SMThphxZg5ztwey70npLCcJF=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Gabrielle_de_Valmont_102_0.jpg",
-            "downloaded_photos\\Gabrielle_de_Valmont_102_1.jpg",
-            "downloaded_photos\\Gabrielle_de_Valmont_102_2.jpg"
+            "downloaded_photos/Gabrielle_de_Valmont_102_0.jpg",
+            "downloaded_photos/Gabrielle_de_Valmont_102_1.jpg",
+            "downloaded_photos/Gabrielle_de_Valmont_102_2.jpg"
         ]
     },
     {
@@ -1221,10 +1221,10 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn37R2hlE1n2w3UvnBMOTp6-5XK9_7iQs72Rh5FJSq8M-YeLY3bFLznX4Dl65_7MedT8Hai91-UoEleqN7Fah6wNuty1Sp2B8GkeuDAlN1mI6OjXWF69T2nfDRdLFO10FT2rAouHuQ=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Patrick_Rohrer_109_0.jpg",
-            "downloaded_photos\\Patrick_Rohrer_109_1.jpg",
-            "downloaded_photos\\Patrick_Rohrer_109_2.jpg",
-            "downloaded_photos\\Patrick_Rohrer_109_3.jpg"
+            "downloaded_photos/Patrick_Rohrer_109_0.jpg",
+            "downloaded_photos/Patrick_Rohrer_109_1.jpg",
+            "downloaded_photos/Patrick_Rohrer_109_2.jpg",
+            "downloaded_photos/Patrick_Rohrer_109_3.jpg"
         ]
     },
     {
@@ -1246,7 +1246,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3NTWC3J4KaJNkgZqD1K9-NgBcvk8kP_AKW6vD3JrOBSQFA_HEKXpybZN-90AXceq0PQmfUJPxfJLok3wjg3MVH0zrYXXau-rm__HOL4UJGg6CHt0bWa_m4V1ghHXyEmNM_q7tu=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Thibaut_Kaid_111_0.jpg"
+            "downloaded_photos/Thibaut_Kaid_111_0.jpg"
         ]
     },
     {
@@ -1277,7 +1277,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn1n5dwN5Z_fXsJ9wOlVPaPGnLSGikCLZRcoGC7oe-WoxdXGYvBjRKZ8Z4OmK8wKUE6WoYQA9UpKJWw3KgbvsgMbFQF6Ke7E87b8Kf4J381Ex4jLjeCTwteGsl49VUNqd7q66mri=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Magda_Porazińska_114_0.jpg"
+            "downloaded_photos/Magda_Porazińska_114_0.jpg"
         ]
     },
     {
@@ -1308,7 +1308,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn2zHjw_KK16PdirArl6bcNpmOkSYIuuNDsxVywTutz94ciKF7goYnTdVupaezB92emaH3FU56CEDkvn46NEqVtYdyaXERDtA0g1ymP3cYY2JOVlfJh85bOJMpPur8pOXY4dDdER0aMgiOuh=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Leonie_Broller_117_0.jpg"
+            "downloaded_photos/Leonie_Broller_117_0.jpg"
         ]
     },
     {
@@ -1339,7 +1339,7 @@ const reviewsData = [
             "https://lh3.googleusercontent.com/grass-cs/ANxoTn3lsX0EMI6djuAEQkhA8wU4Oyl4cPxRoadtiHVbs-_e9wyPTCYSTndzDfWs3duPQLnyZCSE4itnlUoAdLyyAD5-F6yzYJyD5YtV-09vUPNXMqAWbc6srXzB8mkdtgo2pCzbUfr5s4pBzSjk=s1600"
         ],
         "local_photos": [
-            "downloaded_photos\\Matthias_Weissinger_120_0.jpg"
+            "downloaded_photos/Matthias_Weissinger_120_0.jpg"
         ]
     },
     {
