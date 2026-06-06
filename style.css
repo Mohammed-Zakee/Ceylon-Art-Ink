@@ -1037,6 +1037,9 @@ textarea.form-control {
 /* ==========================================================================
    Responsive Design Media Queries
    ========================================================================== */
+/* ==========================================================================
+   Responsive Design Media Queries
+   ========================================================================== */
 @media (max-width: 1024px) {
     .about-grid {
         gap: 3rem;
@@ -1050,6 +1053,14 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+    .about, .features, .reviews, .inquiry {
+        padding: 4.5rem 0;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+
     .header-container {
         padding: 1rem 1.5rem;
     }
@@ -1066,13 +1077,13 @@ textarea.form-control {
         background-color: var(--bg-secondary);
         border-bottom: 1px solid var(--border-light);
         flex-direction: column;
-        padding: 2rem;
+        padding: 2.5rem 2rem;
         gap: 1.5rem;
         transform: translateY(-150%);
         opacity: 0;
         pointer-events: none;
         transition: var(--transition-normal);
-        z-index: -1;
+        z-index: 999; /* Fix: layering above body content */
     }
     
     .nav-menu.active {
@@ -1087,10 +1098,11 @@ textarea.form-control {
     
     .hero {
         min-height: 80vh;
+        padding-top: 80px;
     }
     
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     
     .about-grid {
@@ -1103,11 +1115,12 @@ textarea.form-control {
     }
     
     .about-graphic-box {
-        aspect-ratio: 16/9;
+        aspect-ratio: 16/10;
     }
     
     .features-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     .inquiry-grid {
@@ -1117,12 +1130,37 @@ textarea.form-control {
 }
 
 @media (max-width: 576px) {
+    .about, .features, .reviews, .inquiry {
+        padding: 3.5rem 0;
+    }
+
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     
+    .hero-description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .reviews-filters {
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1.1rem;
+        font-size: 0.75rem;
+    }
+
     .reviews-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .review-card {
+        padding: 1.25rem;
     }
     
     .form-row {
@@ -1136,6 +1174,24 @@ textarea.form-control {
     
     .about-stats {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-ctas {
+        flex-direction: column;
+        gap: 0.8rem;
+        width: 100%;
+    }
+    
+    .hero-ctas .btn {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
         gap: 1rem;
     }
 }

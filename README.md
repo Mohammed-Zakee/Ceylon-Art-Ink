@@ -20,6 +20,7 @@ This project is optimized to be deployed instantly on **Vercel** with zero confi
 ## 🎨 Design & Features
 
 - **Tropical Dark Theme**: Designed with custom typography (`Syne` and `Inter` from Google Fonts), tropical forest greens (`#29533c`), matte gold accents (`#cfa858`), and clean glassmorphism.
+- **100% Mobile Friendly**: Fully optimized for smartphones, tablets, and desktops. Includes stacked mobile-touch buttons, responsive flex/grid wrappers, a slide-out drawer navigation menu, and auto-wrapping filter badges to prevent overflows or overlaps on smaller viewports.
 - **Dynamic Review Board**: Displays all **136 reviews** fetched directly from the Google Maps reviews page.
   - Reviews can be dynamically filtered by **All**, **5 Stars**, or **With Photos**.
   - A client-side "Load More" pagination pattern maintains blistering page load speeds.
